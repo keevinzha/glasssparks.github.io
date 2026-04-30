@@ -1,4 +1,4 @@
 baseURL = 'https://glasssparks.online/'
 locale = 'zh-cn'
-title = 'My Blog'
+title = '酒鬼应援站'
 theme = 'stack'
