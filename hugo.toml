@@ -1,4 +1,4 @@
-baseURL = 'https://glasssparks.github.io/'
+baseURL = 'https://glasssparks.online/'
 locale = 'zh-cn'
 title = 'My Blog'
 theme = 'stack'
