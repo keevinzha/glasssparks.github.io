@@ -1,0 +1,11 @@
+:root {
+    --body-background: #e38baf;
+    --card-background: #f5c6d8;
+    --card-background-selected: #eda7c3;
+}
+
+[data-scheme="dark"] {
+    --body-background: #7a3d5a;
+    --card-background: #9e5272;
+    --card-background-selected: #b36385;
+}
