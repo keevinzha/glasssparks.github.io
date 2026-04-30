@@ -63,8 +63,15 @@ SortBy         = "default"
         caution   = "🚨"
 
 [widgets]
-    homepage = []
-    page     = []
+    homepage = [
+        {type = "search"},
+        {type = "archives"},
+        {type = "tag-cloud"}
+    ]
+    page = [
+        {type = "search"},
+        {type = "tag-cloud"}
+    ]
 
 [opengraph.twitter]
     site = ""
