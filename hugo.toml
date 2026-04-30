@@ -1,6 +1,6 @@
 baseURL = 'https://glasssparks.online/'
 locale = 'zh-cn'
-title = '酒鬼の家'
+title = '莱昂尼德施特恩'
 theme = 'stack'
 
 [author]
