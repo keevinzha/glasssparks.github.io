@@ -4,8 +4,43 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager</title>
+  <script>window.CMS_MANUAL_INIT = true;</script>
 </head>
 <body>
-  <script src="https://unpkg.com/decap-cms@3.3.3/dist/decap-cms.js"></script>
+  <script src="https://unpkg.com/decap-cms@3.12.2/dist/decap-cms.js"></script>
+  <script>
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: 'keevinzha/glasssparks.github.io',
+          branch: 'master',
+          auth_type: 'pkce',
+          app_id: 'Ov23lig7lYWhiqN7p8AO'
+        },
+        media_folder: 'static/img/uploads',
+        public_folder: '/img/uploads',
+        collections: [{
+          name: 'post',
+          label: '文章',
+          folder: 'content/post',
+          create: true,
+          path: '{{slug}}/index',
+          media_folder: '',
+          public_folder: '',
+          fields: [
+            { label: '标题', name: 'title', widget: 'string' },
+            { label: '发布日期', name: 'date', widget: 'datetime' },
+            { label: '草稿', name: 'draft', widget: 'boolean', default: false },
+            { label: '摘要', name: 'description', widget: 'string', required: false },
+            { label: '标签', name: 'tags', widget: 'list', required: false },
+            { label: '分类', name: 'categories', widget: 'list', required: false },
+            { label: '封面图', name: 'image', widget: 'image', required: false },
+            { label: '正文', name: 'body', widget: 'markdown' }
+          ]
+        }]
+      }
+    });
+  </script>
 </body>
 </html>
