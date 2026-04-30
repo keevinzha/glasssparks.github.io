@@ -8,8 +8,6 @@ backend:
 media_folder: static/img/uploads
 public_folder: /img/uploads
 
-locale: zh_Hans
-
 collections:
   - name: post
     label: 文章
