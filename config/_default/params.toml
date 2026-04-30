@@ -108,7 +108,7 @@ SortBy         = "default"
 
 [comments]
     enabled  = true
-    provider = "disqus"
+    provider = "giscus"
 
     [comments.artalk]
         serverUrl = ""
@@ -172,17 +172,17 @@ SortBy         = "default"
         siteName             = ""  # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
     [comments.giscus]
-        repo             = ""
-        repoID           = ""
-        category         = ""
-        categoryID       = ""
+        repo             = "keevinzha/glasssparks.github.io"
+        repoID           = "R_kgDOSQy5ag"
+        category         = "Announcements"
+        categoryID       = "DIC_kwDOSQy5as4C8DiS"
         mapping          = "title"
         lightTheme       = "light"
         darkTheme        = "dark_dimmed"
         reactionsEnabled = 1
         emitMetadata     = 0
-        inputPosition    = "top"
-        lang             = "en"
+        inputPosition    = "bottom"
+        lang             = "zh-CN"
         strict           = 0
         loading          = "lazy"
 
