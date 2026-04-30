@@ -14,8 +14,10 @@ SortBy         = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    compact = false
-    avatar  = ""
+    compact  = false
+    avatar   = "img/cool.jpg"
+    emoji    = "🍶"
+    subtitle = "完美主义超级天才"
 
 [article]
     headingAnchor = false
