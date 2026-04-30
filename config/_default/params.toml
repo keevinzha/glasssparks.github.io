@@ -108,7 +108,7 @@ SortBy         = "default"
 
 [comments]
     enabled  = true
-    provider = "giscus"
+    provider = "waline"
 
     [comments.artalk]
         serverUrl = ""
@@ -149,7 +149,7 @@ SortBy         = "default"
 
     # Waline client configuration see: https://waline.js.org/en/reference/component.html
     [comments.waline]
-        serverURL    = ""
+        serverURL    = "https://glasssparkswaline.vercel.app"
         lang         = ""
         pageview     = ""
         emoji        = ["https://unpkg.com/@waline/emojis@1.0.1/weibo"]
