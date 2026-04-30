@@ -1,4 +1,8 @@
 baseURL = 'https://glasssparks.online/'
 locale = 'zh-cn'
-title = '酒鬼应援站'
+title = '酒鬼の家'
 theme = 'stack'
+
+[author]
+    name = '莱昂尼德施特恩'
+    bio  = '完美主义超级天才'
