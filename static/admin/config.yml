@@ -2,7 +2,6 @@ backend:
   name: github
   repo: keevinzha/glasssparks.github.io
   branch: master
-  base_url: https://glasssparks-oauth.vercel.app
 
 media_folder: static/img/uploads
 public_folder: /img/uploads
