@@ -4,6 +4,7 @@ slug = 'monsoon'
 date = '2025-10-01'
 draft = false
 description = "推荐结合配乐使用\n![[Melancholy Symdrone.mp3]]\n或使用网易云https://music.163.com/djradio?id=1227952730&uct2=U2FsdGVkX1+jfTR1Mc03v6dIb26LxDvAd6ijTKlUncY="
+image = '/img/uploads/季风雨_07_19_184056_00.png'
 +++
 # **写在前面**
 
