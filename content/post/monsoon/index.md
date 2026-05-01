@@ -3,7 +3,7 @@ title = '季风雨'
 slug = 'monsoon'
 date = '2025-10-01'
 draft = false
-description = "推荐结合配乐使用\n![[Melancholy Symdrone.mp3]]\n或使用网易云https://music.163.com/djradio?id=1227952730&uct2=U2FsdGVkX1+jfTR1Mc03v6dIb26LxDvAd6ijTKlUncY="
+description = '推荐结合配乐使用'
 image = '/img/uploads/季风雨_07_19_184056_00.png'
 +++
 # **写在前面**
@@ -11,6 +11,8 @@ image = '/img/uploads/季风雨_07_19_184056_00.png'
 本书成稿于2063年7月，全部内容已经经过莱昂尼德-施特恩博士校验修改。记录了博士于2062年冬日座谈会的绝大部分内容。
 
 [配乐：季风雨](https://music.163.com/djradio?id=1227952730&uct2=U2FsdGVkX1+jfTR1Mc03v6dIb26LxDvAd6ijTKlUncY=)
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=4&id=1227952730&auto=1&height=430"></iframe>
 
 在这里特别鸣谢番茄海子（笔名）为笔者提供的诸多帮助。
 
