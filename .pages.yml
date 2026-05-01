@@ -1,0 +1,76 @@
+media:
+  input: static/img/uploads
+  output: /img/uploads
+
+content:
+  - name: post
+    label: 📝 博客文章
+    type: collection
+    path: content/post
+    filename: '{fields.slug}/index.md'
+    subfolders: true
+    format: toml-frontmatter
+    view:
+      fields: [title, date, categories, tags]
+      primary: title
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+      layout: tree
+      node:
+        filename: _index.md
+        hideDirs: nodes
+    fields:
+      - name: title
+        label: 标题
+        type: string
+        required: true
+
+      - name: slug
+        label: URL 别名
+        type: string
+        required: false
+        pattern:
+          message: 只能包含小写字母、数字和连字符
+          regex: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+
+      - name: date
+        label: 发布日期
+        type: date
+        required: true
+        options:
+          format: "yyyy-MM-dd"
+          time: false
+
+      - name: draft
+        label: 草稿状态
+        type: boolean
+        default: false
+
+      - name: description
+        label: 摘要
+        type: text
+        required: false
+
+      - name: categories
+        label: 分类
+        type: string
+        list: true
+        required: false
+
+      - name: tags
+        label: 标签
+        type: string
+        list: true
+        required: false
+
+      - name: image
+        label: 封面图
+        type: image
+        required: false
+
+      - name: body
+        label: 正文
+        type: rich-text
+        required: true
